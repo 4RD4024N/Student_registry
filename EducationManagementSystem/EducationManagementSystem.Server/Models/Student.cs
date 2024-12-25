@@ -22,10 +22,10 @@ public class Student
     public DateTime? DateOfBirth { get; set; }
     public DateTime EnrollmentDate { get; set; } = DateTime.UtcNow;
 
-    // Yeni eklenen özellik
+    // şifreli password
     public string PasswordHash { get; set; } = string.Empty;
 
-    // Navigation properties
+    
     public virtual Department Department { get; set; } = null!;
     public virtual User User { get; set; } = null!;
     public virtual ICollection<StudentCourse> StudentCourses { get; set; }

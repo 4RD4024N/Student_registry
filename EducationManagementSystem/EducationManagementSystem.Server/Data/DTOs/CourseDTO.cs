@@ -20,7 +20,7 @@
     public class CourseScheduleDTO
     {
         public int ScheduleId { get; init; }
-        public string? CourseCode { get; set; } // Nullable yapılabilir
+        public string? CourseCode { get; set; } 
         public required string CourseName { get; init; }
         public required DayOfWeek DayOfWeek { get; init; }
         public required TimeSpan StartTime { get; init; }

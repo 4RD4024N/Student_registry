@@ -11,7 +11,7 @@ public class StudentDTO
     public required string Email { get; set; } = string.Empty;
     public string? PhoneNumber { get; set; }
 
-    // Yöneticiye özel bir kullanım için şifre eklenebilir
+
     public string? Password { get; set; }
 }
 

@@ -5,7 +5,7 @@ import * as yup from "yup";
 import axios from "axios";
 import { motion } from "framer-motion";
 
-// Yup Validasyon Şeması
+// Yup Validation Schema
 const schema = yup.object().shape({
   firstName: yup.string().required("First name is required"),
   lastName: yup.string().required("Last name is required"),
@@ -15,7 +15,10 @@ const schema = yup.object().shape({
     .min(6, "Password must be at least 6 characters")
     .required("Password is required"),
   studentNumber: yup.string().required("Student number is required"),
-  departmentId: yup.number().required("Department ID is required"),
+  departmentId: yup
+    .number()
+    .typeError("Department ID must be a number")
+    .required("Department ID is required"),
   phoneNumber: yup.string().nullable(),
   dateOfBirth: yup.date().nullable(),
 });
@@ -37,15 +40,29 @@ export default function Register() {
     setError(null);
 
     try {
-      const response = await axios.post("api/auth/register", data);
-  
+      // Prepare data to match API expectations
+      const transformedData = {
+        ...data,
+        departmentId: Number(data.departmentId),
+      };
+
+      // API request
+      const response = await axios.post(
+        "http://localhost:7214/api/auth/register",
+        transformedData
+      );
+
       if (response.status === 201) {
-        alert(`Registration successful! Token: ${response.data.token}`);
+        alert("Registration successful! Welcome!");
       } else {
         setError("Registration failed. Please try again.");
       }
     } catch (err: any) {
-      setError(err.response?.data?.message || "An error occurred.");
+      console.error("Registration error:", err);
+      setError(
+        err.response?.data?.message ||
+          "A server error occurred. Please try again later."
+      );
     } finally {
       setLoading(false);
     }
@@ -71,103 +88,56 @@ export default function Register() {
           {error && <div style={styles.errorBox}>{error}</div>}
           <form onSubmit={handleSubmit(onSubmit)} style={styles.form}>
             <div style={styles.inputGroupContainer}>
+              {/* Input Fields */}
               <div style={styles.inputGroup}>
-                <label htmlFor="firstName" style={styles.label}>
-                  First Name
-                </label>
-                <input
-                  id="firstName"
-                  type="text"
-                  {...register("firstName")}
-                  style={styles.input}
-                />
+                <label htmlFor="firstName" style={styles.label}>First Name</label>
+                <input id="firstName" type="text" {...register("firstName")} style={styles.input} />
                 <p style={styles.error}>{errors.firstName?.message}</p>
               </div>
+
               <div style={styles.inputGroup}>
-                <label htmlFor="lastName" style={styles.label}>
-                  Last Name
-                </label>
-                <input
-                  id="lastName"
-                  type="text"
-                  {...register("lastName")}
-                  style={styles.input}
-                />
+                <label htmlFor="lastName" style={styles.label}>Last Name</label>
+                <input id="lastName" type="text" {...register("lastName")} style={styles.input} />
                 <p style={styles.error}>{errors.lastName?.message}</p>
               </div>
+
               <div style={styles.inputGroup}>
-                <label htmlFor="email" style={styles.label}>
-                  Email
-                </label>
-                <input
-                  id="email"
-                  type="email"
-                  {...register("email")}
-                  style={styles.input}
-                />
+                <label htmlFor="email" style={styles.label}>Email</label>
+                <input id="email" type="email" {...register("email")} style={styles.input} />
                 <p style={styles.error}>{errors.email?.message}</p>
               </div>
+
               <div style={styles.inputGroup}>
-                <label htmlFor="password" style={styles.label}>
-                  Password
-                </label>
-                <input
-                  id="password"
-                  type="password"
-                  {...register("password")}
-                  style={styles.input}
-                />
+                <label htmlFor="password" style={styles.label}>Password</label>
+                <input id="password" type="password" {...register("password")} style={styles.input} />
                 <p style={styles.error}>{errors.password?.message}</p>
               </div>
+
               <div style={styles.inputGroup}>
-                <label htmlFor="studentNumber" style={styles.label}>
-                  Student Number
-                </label>
-                <input
-                  id="studentNumber"
-                  type="text"
-                  {...register("studentNumber")}
-                  style={styles.input}
-                />
+                <label htmlFor="studentNumber" style={styles.label}>Student Number</label>
+                <input id="studentNumber" type="text" {...register("studentNumber")} style={styles.input} />
                 <p style={styles.error}>{errors.studentNumber?.message}</p>
               </div>
+
               <div style={styles.inputGroup}>
-                <label htmlFor="departmentId" style={styles.label}>
-                  Department ID
-                </label>
-                <input
-                  id="departmentId"
-                  type="number"
-                  {...register("departmentId")}
-                  style={styles.input}
-                />
+                <label htmlFor="departmentId" style={styles.label}>Department ID</label>
+                <input id="departmentId" type="number" {...register("departmentId")} style={styles.input} />
                 <p style={styles.error}>{errors.departmentId?.message}</p>
               </div>
+
               <div style={styles.inputGroup}>
-                <label htmlFor="phoneNumber" style={styles.label}>
-                  Phone Number
-                </label>
-                <input
-                  id="phoneNumber"
-                  type="text"
-                  {...register("phoneNumber")}
-                  style={styles.input}
-                />
+                <label htmlFor="phoneNumber" style={styles.label}>Phone Number</label>
+                <input id="phoneNumber" type="text" {...register("phoneNumber")} style={styles.input} />
                 <p style={styles.error}>{errors.phoneNumber?.message}</p>
               </div>
+
               <div style={styles.inputGroup}>
-                <label htmlFor="dateOfBirth" style={styles.label}>
-                  Date of Birth
-                </label>
-                <input
-                  id="dateOfBirth"
-                  type="date"
-                  {...register("dateOfBirth")}
-                  style={styles.input}
-                />
+                <label htmlFor="dateOfBirth" style={styles.label}>Date of Birth</label>
+                <input id="dateOfBirth" type="date" {...register("dateOfBirth")} style={styles.input} />
                 <p style={styles.error}>{errors.dateOfBirth?.message}</p>
               </div>
             </div>
+          
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -177,16 +147,6 @@ export default function Register() {
             >
               {loading ? "Registering..." : "Register"}
             </motion.button>
-            <motion.button
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        style={styles.submitButton}
-                        onClick={() => {
-                          window.location.href = "/";
-                        }}
-                      >
-                        Go to Login
-                      </motion.button>
           </form>
         </motion.div>
       </div>
@@ -194,7 +154,7 @@ export default function Register() {
   );
 }
 
-// CSS-in-JS stilleri
+// Styles
 const styles: { [key: string]: React.CSSProperties } = {
   mainContainer: {
     display: "flex",

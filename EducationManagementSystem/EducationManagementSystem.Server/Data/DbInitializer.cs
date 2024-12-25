@@ -13,16 +13,16 @@ public static class DbInitializer
         {
             logger.LogInformation("Starting database seeding...");
 
-            // Seed Departments
+            // bölüm seed
             await DepartmentSeedData.SeedAsync(context, logger);
 
-            // Seed Courses
+            // ders seed
             await CourseSeedData.SeedAsync(context, logger);
 
-            // Seed Students
+            // öğrenci seed
             await StudentSeedData.SeedAsync(context, logger);
 
-            // Seed Announcements
+            //anons seed
             await AnnouncementSeedData.SeedAsync(context, logger);
 
             logger.LogInformation("Database seeding completed successfully.");

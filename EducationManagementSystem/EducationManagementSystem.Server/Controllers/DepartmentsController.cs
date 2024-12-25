@@ -19,9 +19,7 @@ namespace EducationManagementSystem.Server.Controllers
             _logger = logger;
         }
 
-        /// <summary>
-        /// Tüm bölümleri listeler
-        /// </summary>
+        
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<DepartmentDTO>), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<IEnumerable<DepartmentDTO>>> GetDepartments()
@@ -48,9 +46,7 @@ namespace EducationManagementSystem.Server.Controllers
         }
 
 
-        /// <summary>
-        /// Belirli bir bölümün detaylarını getirir
-        /// </summary>
+      
         [HttpGet("{id}")]
         [ProducesResponseType(typeof(Department), (int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
@@ -77,9 +73,6 @@ namespace EducationManagementSystem.Server.Controllers
             }
         }
 
-        /// <summary>
-        /// Bölümdeki öğrenci sayısını getirir
-        /// </summary>
         [HttpGet("{id}/student-count")]
         [ProducesResponseType(typeof(int), (int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
@@ -106,9 +99,7 @@ namespace EducationManagementSystem.Server.Controllers
             }
         }
 
-        /// <summary>
-        /// Yeni bölüm ekler
-        /// </summary>
+  
         [HttpPost]
         [ProducesResponseType(typeof(Department), (int)HttpStatusCode.Created)]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
@@ -133,9 +124,7 @@ namespace EducationManagementSystem.Server.Controllers
             }
         }
 
-        /// <summary>
-        /// Bölüm bilgilerini günceller
-        /// </summary>
+      
         [HttpPut("{id}")]
         [ProducesResponseType((int)HttpStatusCode.NoContent)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
@@ -174,9 +163,7 @@ namespace EducationManagementSystem.Server.Controllers
             }
         }
 
-        /// <summary>
-        /// Bölümü siler
-        /// </summary>
+      
         [HttpDelete("{id}")]
         [ProducesResponseType((int)HttpStatusCode.NoContent)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]

@@ -6,7 +6,7 @@
     public DateTime CreatedAt { get; set; }
     public DateTime? UpdatedAt { get; set; }
 
-    // İlişkili Departman
+    // departmanla ilişki
     public int DepartmentId { get; set; }
     public Department Department { get; set; } = null!;
 

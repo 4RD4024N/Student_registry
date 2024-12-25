@@ -11,22 +11,22 @@ using EducationManagementSystem.Server.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add CORS
+// cors entegrasyonu
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("http://localhost:51691") // Adjust to your React app's URL
+        policy.WithOrigins("http://localhost:51691") 
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
 });
 
-// Add services to the container.
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
-// Swagger configuration
+// swagger config
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
@@ -37,11 +37,11 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 builder.Services.AddScoped<IStudentService, StudentService>();
-// Configure PostgreSQL
+// db baðlantýsý
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Register repositories
+// repo eklenmesi
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddScoped<AnnouncementService>();
@@ -54,7 +54,7 @@ builder.Services.AddScoped<IChatMessageService, ChatMessageService>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<IChatMessageRepository, ChatMessageRepository>();
-// Add logging
+
 builder.Services.AddLogging(logging =>
 {
     logging.ClearProviders();
@@ -64,7 +64,7 @@ builder.Services.AddLogging(logging =>
 
 var app = builder.Build();
 
-// Initialize Database and Seed Data
+// db yüklenmesi ve seed
 try
 {
     using (var scope = app.Services.CreateScope())
@@ -73,10 +73,10 @@ try
         var context = services.GetRequiredService<ApplicationDbContext>();
         var logger = services.GetRequiredService<ILogger<Program>>();
 
-        // Ensure database is created and apply migrations
+        // migrasyon kontrol
         context.Database.Migrate();
 
-        // Call DbInitializer
+        // db yüklemesi baþlat
         await DbInitializer.Initialize(services);
 
         logger.LogInformation("Database initialization completed successfully.");
@@ -88,7 +88,7 @@ catch (Exception ex)
     logger.LogError(ex, "An error occurred while initializing the database.");
 }
 
-// Configure the HTTP request pipeline.
+// pipeline config
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

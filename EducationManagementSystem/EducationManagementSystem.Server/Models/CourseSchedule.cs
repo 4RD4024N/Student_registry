@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 public class CourseSchedule
 {
     [Key]
-    public int ScheduleId { get; set; } // Entity Framework will automatically recognize this as the primary key
+    public int ScheduleId { get; set; } 
     public int CourseId { get; set; }
     public DayOfWeek DayOfWeek { get; set; }
     public TimeSpan StartTime { get; set; }

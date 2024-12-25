@@ -24,7 +24,7 @@ namespace EducationManagementSystem.Server.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // StudentCourse için composite key tanımlama
+            // key tanımlama
             modelBuilder.Entity<StudentCourse>()
                 .HasKey(sc => new { sc.StudentId, sc.CourseId });
 
@@ -38,7 +38,7 @@ namespace EducationManagementSystem.Server.Data
                 .WithMany(c => c.StudentCourses)
                 .HasForeignKey(sc => sc.CourseId);
 
-            // ChatMessage ilişkileri
+            // chat ilişkileri
             modelBuilder.Entity<ChatMessage>()
                 .HasKey(m => m.MessageId);
 
@@ -54,7 +54,7 @@ namespace EducationManagementSystem.Server.Data
                 .HasForeignKey(m => m.ReceiverId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // Student ilişkileri
+            // öğrenci ilişki
             modelBuilder.Entity<Student>()
                 .HasOne(s => s.Department)
                 .WithMany(d => d.Students)
@@ -65,7 +65,7 @@ namespace EducationManagementSystem.Server.Data
                 .WithOne()
                 .HasForeignKey<Student>(s => s.UserId);
 
-            // Course ilişkileri
+            // ders ilişki
             modelBuilder.Entity<Course>()
                 .HasOne(c => c.Department)
                 .WithMany(d => d.Courses)
@@ -76,13 +76,13 @@ namespace EducationManagementSystem.Server.Data
                 .WithOne(cs => cs.Course)
                 .HasForeignKey(cs => cs.CourseId);
 
-            // Course ile CourseSchedule ilişkisi
+            // ders ve program ilişki
             modelBuilder.Entity<CourseSchedule>()
                 .HasOne(cs => cs.Course)
                 .WithMany(c => c.CourseSchedules)
                 .HasForeignKey(cs => cs.CourseId);
 
-            // İndeksler
+            // 
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Email)
                 .IsUnique();
@@ -95,7 +95,7 @@ namespace EducationManagementSystem.Server.Data
                 .HasIndex(c => c.CourseCode)
                 .IsUnique();
 
-            // Default değerler
+            // zaman default değer
             modelBuilder.Entity<ChatMessage>()
                 .Property(m => m.SentAt)
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");

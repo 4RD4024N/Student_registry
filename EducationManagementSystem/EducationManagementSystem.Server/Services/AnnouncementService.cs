@@ -13,7 +13,7 @@ public class AnnouncementService
     public async Task<List<Announcement>> GetAnnouncementsAsync()
     {
         return await _context.Announcements
-            .OrderByDescending(a => a.CreatedAt) // Sadece sıralama yapıyoruz
+            .OrderByDescending(a => a.CreatedAt) 
             .ToListAsync();
     }
 }

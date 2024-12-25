@@ -16,7 +16,7 @@ public class CourseRepository : ICourseRepository
     {
         return await _context.Courses
             .Include(c => c.Department)
-            .Include(c => c.CourseSchedules) // CourseSchedules olarak güncellendi
+            .Include(c => c.CourseSchedules) 
             .Include(c => c.StudentCourses)
             .FirstOrDefaultAsync(c => c.CourseId == id);
     }
@@ -25,7 +25,7 @@ public class CourseRepository : ICourseRepository
     {
         return await _context.Courses
             .Include(c => c.Department)
-            .Include(c => c.CourseSchedules) // CourseSchedules olarak güncellendi
+            .Include(c => c.CourseSchedules) 
             .ToListAsync();
     }
 

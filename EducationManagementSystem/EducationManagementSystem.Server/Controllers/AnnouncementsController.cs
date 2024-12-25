@@ -22,7 +22,7 @@ public class AnnouncementsController : ControllerBase
         }
         catch (Exception ex)
         {
-            // Hata kaydı
+           
             return StatusCode(500, $"Internal server error: {ex.Message}");
         }
     }

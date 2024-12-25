@@ -38,7 +38,7 @@ namespace EducationManagementSystem.Server.Controllers
         {
             try
             {
-                // Kullanıcı kontrolü
+                
                 var user = await _context.Users
                     .FirstOrDefaultAsync(u => u.Email == loginDto.Email);
 
@@ -48,7 +48,7 @@ namespace EducationManagementSystem.Server.Controllers
                     return Unauthorized("E-posta veya şifre yanlış");
                 }
 
-                // Şifre doğrulama
+             
                 bool isPasswordValid = BCrypt.Net.BCrypt.Verify(loginDto.Password, user.PasswordHash);
                 if (!isPasswordValid)
                 {
@@ -56,7 +56,7 @@ namespace EducationManagementSystem.Server.Controllers
                     return Unauthorized("E-posta veya şifre yanlış");
                 }
 
-                // JWT Token oluştur
+               
                 
 
                 return Ok(new LoginResponseDTO
@@ -64,7 +64,7 @@ namespace EducationManagementSystem.Server.Controllers
                     
                     UserId = user.UserId,
                     Email = user.Email,
-                    Role = "User" // Örnek
+                    Role = "User" 
                 });
             }
             catch (Exception ex)

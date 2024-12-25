@@ -13,6 +13,6 @@ public record ChatMessageDTO
 public class CreateChatMessageDTO
 {
     public required string Content { get; set; }
-    public required string SenderEmail { get; set; } // Gönderici e-posta adresi
-    public required string ReceiverEmail { get; set; } // Alıcı e-posta adresi
+    public required string SenderEmail { get; set; } 
+    public required string ReceiverEmail { get; set; } 
 }
