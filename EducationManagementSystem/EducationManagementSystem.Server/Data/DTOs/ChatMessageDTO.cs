@@ -10,9 +10,9 @@ public record ChatMessageDTO
     public bool IsRead { get; init; }
 }
 
-public record CreateChatMessageDTO
+public class CreateChatMessageDTO
 {
-    public required string Content { get; init; }
-    public int SenderId { get; init; }
-    public int ReceiverId { get; init; }
+    public required string Content { get; set; }
+    public required string SenderEmail { get; set; } // Gönderici e-posta adresi
+    public required string ReceiverEmail { get; set; } // Alıcı e-posta adresi
 }

@@ -11,7 +11,7 @@ const NavigationPage = () => {
           whileTap={{ scale: 0.95 }}
           style={styles.button}
           onClick={() => {
-            window.location.href = "/";
+            window.location.href = "/login";
           }}
         >
           Login

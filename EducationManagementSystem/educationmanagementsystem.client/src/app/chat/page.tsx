@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { motion } from "framer-motion";
 
 interface ChatMessage {
   messageId: number;
@@ -16,8 +17,8 @@ const ChatScreen = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const senderId = 1; // Placeholder sender ID
-  const receiverId = 2; // Placeholder receiver ID
+  const senderEmail = "arda03ozan@gmail.com"; // Placeholder sender email
+  const receiverEmail = "arda05ozan@gmail.com"; // Placeholder receiver email
 
   useEffect(() => {
     fetchMessages();
@@ -26,7 +27,7 @@ const ChatScreen = () => {
   const fetchMessages = async () => {
     try {
       const response = await axios.get<ChatMessage[]>(
-        `/api/chatmessages/conversation?user1Id=${senderId}&user2Id=${receiverId}`
+        `/api/chatmessages/conversation?senderEmail=${senderEmail}&receiverEmail=${receiverEmail}`
       );
       setMessages(response.data);
     } catch (err) {
@@ -43,8 +44,8 @@ const ChatScreen = () => {
     try {
       const response = await axios.post<ChatMessage>("/api/chatmessages", {
         content: newMessage,
-        senderId,
-        receiverId,
+        senderEmail,
+        receiverEmail,
       });
 
       setMessages([...messages, response.data]);
@@ -56,20 +57,42 @@ const ChatScreen = () => {
   };
 
   return (
-    <div style={styles.chatContainer}>
-      <div style={styles.chatHeader}>Chat with {receiverId}</div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      style={styles.chatContainer}
+    >
+      <div style={styles.chatHeader}>Chat with {receiverEmail}</div>
       <div style={styles.messagesContainer}>
         {loading ? (
-          <div style={styles.loadingText}>Loading messages...</div>
+          <motion.div
+            initial={{ scale: 0.8 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 0.4 }}
+            style={styles.loadingText}
+          >
+            Loading messages...
+          </motion.div>
         ) : error ? (
-          <div style={styles.errorText}>{error}</div>
+          <motion.div
+            initial={{ scale: 0.8 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 0.4 }}
+            style={styles.errorText}
+          >
+            {error}
+          </motion.div>
         ) : (
           <ul style={styles.messageList}>
             {messages.map((message) => (
-              <li
+              <motion.li
                 key={message.messageId}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3 }}
                 style={
-                  message.senderName === "You"
+                  message.senderName === senderEmail
                     ? { ...styles.messageItem, ...styles.outgoingMessage }
                     : { ...styles.messageItem, ...styles.incomingMessage }
                 }
@@ -78,7 +101,7 @@ const ChatScreen = () => {
                 <small style={styles.messageTime}>
                   {new Date(message.sentAt).toLocaleTimeString()}
                 </small>
-              </li>
+              </motion.li>
             ))}
           </ul>
         )}
@@ -91,11 +114,16 @@ const ChatScreen = () => {
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
         />
-        <button style={styles.sendButton} onClick={handleSendMessage}>
+        <motion.button
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          style={styles.sendButton}
+          onClick={handleSendMessage}
+        >
           Send
-        </button>
+        </motion.button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

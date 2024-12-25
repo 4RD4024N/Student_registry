@@ -17,33 +17,17 @@ public class ChatMessagesController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet]
-    public async Task<ActionResult<IEnumerable<ChatMessageDTO>>> GetAllMessages()
+    [HttpPost]
+    public async Task<ActionResult<ChatMessageDTO>> SendMessage([FromBody] CreateChatMessageDTO messageDto)
     {
         try
         {
-            var messages = await _chatService.GetAllMessagesAsync();
-            return Ok(messages);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Error retrieving messages");
-            return StatusCode(500, "Internal server error");
-        }
-    }
-
-    [HttpGet("{id}")]
-    public async Task<ActionResult<ChatMessageDTO>> GetMessage(int id)
-    {
-        try
-        {
-            var message = await _chatService.GetMessageByIdAsync(id);
-            if (message == null) return NotFound();
+            var message = await _chatService.SendMessageAsync(messageDto);
             return Ok(message);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Error retrieving message {MessageId}", id);
+            _logger.LogError(ex, "Error sending message");
             return StatusCode(500, "Internal server error");
         }
     }
@@ -59,68 +43,7 @@ public class ChatMessagesController : ControllerBase
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Error retrieving conversation between users {User1Id} and {User2Id}",
-                user1Id, user2Id);
-            return StatusCode(500, "Internal server error");
-        }
-    }
-
-    [HttpPost]
-    public async Task<ActionResult<ChatMessageDTO>> SendMessage(CreateChatMessageDTO messageDto)
-    {
-        try
-        {
-            var message = await _chatService.SendMessageAsync(messageDto);
-            return CreatedAtAction(nameof(GetMessage), new { id = message.MessageId }, message);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Error sending message");
-            return StatusCode(500, "Internal server error");
-        }
-    }
-
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteMessage(int id)
-    {
-        try
-        {
-            await _chatService.DeleteMessageAsync(id);
-            return NoContent();
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Error deleting message {MessageId}", id);
-            return StatusCode(500, "Internal server error");
-        }
-    }
-
-    [HttpPut("{id}/read")]
-    public async Task<IActionResult> MarkAsRead(int id)
-    {
-        try
-        {
-            await _chatService.MarkMessageAsReadAsync(id);
-            return NoContent();
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Error marking message {MessageId} as read", id);
-            return StatusCode(500, "Internal server error");
-        }
-    }
-
-    [HttpGet("unread/{userId}")]
-    public async Task<ActionResult<IEnumerable<ChatMessageDTO>>> GetUnreadMessages(int userId)
-    {
-        try
-        {
-            var messages = await _chatService.GetUnreadMessagesAsync(userId);
-            return Ok(messages);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Error retrieving unread messages for user {UserId}", userId);
+            _logger.LogError(ex, "Error retrieving conversation");
             return StatusCode(500, "Internal server error");
         }
     }

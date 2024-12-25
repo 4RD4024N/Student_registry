@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { motion } from "framer-motion";
 
 const ResetPasswordPage = () => {
   const [token, setToken] = useState("");
@@ -36,6 +37,16 @@ const ResetPasswordPage = () => {
           <div style={styles.successMessage}>
             <h1>🎉 Success!</h1>
             <p>Your password has been successfully reset. You can now log in with your new password.</p>
+            <motion.button
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          style={styles.button}
+          onClick={() => {
+            window.location.href = "/login";
+          }}
+        >
+          Return to Login
+        </motion.button>
           </div>
         ) : (
           <>

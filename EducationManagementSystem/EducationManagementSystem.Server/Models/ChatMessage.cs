@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace EducationManagementSystem.Server.Models
+﻿namespace EducationManagementSystem.Server.Models
 {
     public class ChatMessage
     {

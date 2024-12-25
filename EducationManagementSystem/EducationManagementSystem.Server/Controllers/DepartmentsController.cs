@@ -23,14 +23,19 @@ namespace EducationManagementSystem.Server.Controllers
         /// Tüm bölümleri listeler
         /// </summary>
         [HttpGet]
-        [ProducesResponseType(typeof(IEnumerable<Department>), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<IEnumerable<Department>>> GetDepartments()
+        [ProducesResponseType(typeof(IEnumerable<DepartmentDTO>), (int)HttpStatusCode.OK)]
+        public async Task<ActionResult<IEnumerable<DepartmentDTO>>> GetDepartments()
         {
             try
             {
                 var departments = await _context.Departments
-                    .Include(d => d.Students)
-                    .Include(d => d.Courses)
+                    .Select(d => new DepartmentDTO
+                    {
+                        DepartmentId = d.DepartmentId,
+                        Name = d.Name,
+                        StudentCount = d.Students.Count,
+                        CourseCount = d.Courses.Count
+                    })
                     .ToListAsync();
 
                 return Ok(departments);
@@ -41,6 +46,7 @@ namespace EducationManagementSystem.Server.Controllers
                 return StatusCode(500, "Bölümler getirilirken bir hata oluştu");
             }
         }
+
 
         /// <summary>
         /// Belirli bir bölümün detaylarını getirir

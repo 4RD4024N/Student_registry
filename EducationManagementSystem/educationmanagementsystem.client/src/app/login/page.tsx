@@ -4,6 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import axios from "axios";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom"; // react-router-dom'dan useNavigate import
 
 // Yup Validasyon Şeması
 const schema = yup.object().shape({
@@ -20,21 +21,27 @@ export default function Login() {
     resolver: yupResolver(schema),
   });
 
+  const navigate = useNavigate(); // Yönlendirme için useNavigate
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [showPopup, setShowPopup] = useState(false); // Pop-up durumu
+  const [showPopup, setShowPopup] = useState(false);
 
   const onSubmit = async (data: any) => {
     setLoading(true);
     setError(null);
 
     try {
-      const response = await axios.post("api/auth/login", data);
+      const response = await axios.post("/api/auth/login", data);
 
       if (response.status === 200) {
         const { token, email, role } = response.data;
         localStorage.setItem("token", token);
-        setShowPopup(true); // Pop-up göster
+        setShowPopup(true);
+
+        setTimeout(() => {
+          setShowPopup(false);
+          navigate("/"); // Başarılı giriş sonrası yönlendirme
+        }, 1500); // 1.5 saniye sonra yönlendirme yap
       } else {
         setError("Login failed. Please try again.");
       }
@@ -56,7 +63,7 @@ export default function Login() {
         >
           Login
         </motion.h1>
-        
+
         <motion.div
           initial={{ scale: 0.9, opacity: 0.8 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -99,32 +106,24 @@ export default function Login() {
               {loading ? "Logging in..." : "Login"}
             </motion.button>
             <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            style={styles.submitButton}
-            onClick={() => {
-              window.location.href = "/register";
-            }}
-          >
-            Register
-          </motion.button>
-
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              style={styles.submitButton}
+              onClick={() => {
+                window.location.href = "/register";
+              }}
+            >
+              Register
+            </motion.button>
           </form>
         </motion.div>
       </div>
 
-      {/* Pop-up (modal) */}
       {showPopup && (
         <div style={styles.popupOverlay}>
           <div style={styles.popup}>
             <h2 style={styles.popupTitle}>Login Successful</h2>
-            <p style={styles.popupMessage}>Welcome back!</p>
-            <button
-              style={styles.popupButton}
-              onClick={() => setShowPopup(false)}
-            >
-              Close
-            </button>
+            <p style={styles.popupMessage}>Redirecting...</p>
           </div>
         </div>
       )}
@@ -236,13 +235,5 @@ const styles: { [key: string]: React.CSSProperties } = {
   popupMessage: {
     fontSize: "1rem",
     marginBottom: "1.5rem",
-  },
-  popupButton: {
-    padding: "0.5rem 1rem",
-    backgroundColor: "#4b4bf5",
-    color: "#fff",
-    border: "none",
-    borderRadius: "6px",
-    cursor: "pointer",
   },
 };

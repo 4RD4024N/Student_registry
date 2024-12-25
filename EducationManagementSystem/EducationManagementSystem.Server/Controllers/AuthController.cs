@@ -34,40 +34,46 @@ namespace EducationManagementSystem.Server.Controllers
         }
 
         [HttpPost("login")]
-        [ProducesResponseType(typeof(LoginResponseDTO), (int)HttpStatusCode.OK)]
-        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
-        public async Task<ActionResult<LoginResponseDTO>> Login(LoginDTO loginDto)
+        public async Task<ActionResult<LoginResponseDTO>> Login([FromBody] LoginDTO loginDto)
         {
             try
             {
+                // Kullanıcı kontrolü
                 var user = await _context.Users
                     .FirstOrDefaultAsync(u => u.Email == loginDto.Email);
 
-                if (user == null || !BCrypt.Net.BCrypt.Verify(loginDto.Password, user.PasswordHash))
+                if (user == null)
                 {
+                    _logger.LogWarning($"User not found for email: {loginDto.Email}");
                     return Unauthorized("E-posta veya şifre yanlış");
                 }
 
-                var token = GenerateJwtToken(user);
-
-                var isStudent = await _context.Students.AnyAsync(s => s.UserId == user.UserId);
-
-                var response = new LoginResponseDTO
+                // Şifre doğrulama
+                bool isPasswordValid = BCrypt.Net.BCrypt.Verify(loginDto.Password, user.PasswordHash);
+                if (!isPasswordValid)
                 {
-                    Token = token,
+                    _logger.LogWarning($"Invalid password for email: {loginDto.Email}");
+                    return Unauthorized("E-posta veya şifre yanlış");
+                }
+
+                // JWT Token oluştur
+                
+
+                return Ok(new LoginResponseDTO
+                {
+                    
                     UserId = user.UserId,
                     Email = user.Email,
-                    Role = isStudent ? "Student" : "User"
-                };
-
-                return Ok(response);
+                    Role = "User" // Örnek
+                });
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Giriş yapılırken bir hata oluştu");
+                _logger.LogError(ex, "An error occurred during login.");
                 return StatusCode(500, "Giriş işlemi sırasında bir hata oluştu");
             }
         }
+
 
         [HttpPost("register")]
         [ProducesResponseType(typeof(RegisterResponseDTO), (int)HttpStatusCode.Created)]
@@ -119,11 +125,11 @@ namespace EducationManagementSystem.Server.Controllers
                 _context.Students.Add(student);
                 await _context.SaveChangesAsync();
 
-                var token = GenerateJwtToken(user);
+                
 
                 var response = new RegisterResponseDTO
                 {
-                    Token = token,
+                    
                     UserId = user.UserId,
                     StudentId = student.StudentId,
                     Email = user.Email
