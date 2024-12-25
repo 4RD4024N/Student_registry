@@ -1,0 +1,1057 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\seeddata\\announcementseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\seeddata\\announcementseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\settings\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\settings\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\controllers\\courseschedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\controllers\\courseschedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\dtos\\welcomeemailrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\dtos\\welcomeemailrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\dtos\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\dtos\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\models\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\models\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\interfaces\\ichatmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\interfaces\\ichatmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\interfaces\\ichatmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\interfaces\\ichatmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\mappers\\coursemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\mappers\\coursemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\models\\courseschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\models\\courseschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\models\\modelsnamespace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\models\\modelsnamespace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\models\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\models\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\seeddata\\studentseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\seeddata\\studentseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\seeddata\\courseseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\seeddata\\courseseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\seeddata\\departmentseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\seeddata\\departmentseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\datanamespace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\datanamespace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\dtos\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\dtos\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\dtos\\announcementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\dtos\\announcementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\services\\chatmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\services\\chatmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\repositories\\chatmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\repositories\\chatmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\controllers\\chatmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\controllers\\chatmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566F5746-0106-49F5-9082-37191E6A9528}|educationmanagementsystem.client\\educationmanagementsystem.client.esproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.client\\src\\app\\courselist\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{566F5746-0106-49F5-9082-37191E6A9528}|educationmanagementsystem.client\\educationmanagementsystem.client.esproj|solutionrelative:educationmanagementsystem.client\\src\\app\\courselist\\page.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\dtos\\dtosnamespace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\dtos\\dtosnamespace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\educationmanagementsystem.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\educationmanagementsystem.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\educationmanagementsystem.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\educationmanagementsystem.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\educationmanagementsystem.client\\node_modules\\yup\\index.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:educationmanagementsystem.client\\node_modules\\yup\\index.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\educationmanagementsystem.client\\node_modules\\react-dom\\cjs\\react-dom.development.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:educationmanagementsystem.client\\node_modules\\react-dom\\cjs\\react-dom.development.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566F5746-0106-49F5-9082-37191E6A9528}|educationmanagementsystem.client\\educationmanagementsystem.client.esproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{566F5746-0106-49F5-9082-37191E6A9528}|educationmanagementsystem.client\\educationmanagementsystem.client.esproj|solutionrelative:educationmanagementsystem.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|c:\\users\\arda0\\source\\repos\\educationmanagementsystem\\educationmanagementsystem.server\\data\\repositories\\repositoriesnamespace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1C4E4D-5A1B-4187-A3EB-74418189B2B7}|EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj|solutionrelative:educationmanagementsystem.server\\data\\repositories\\repositoriesnamespace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Settings\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Settings\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Settings\\EmailSettings.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Settings\\EmailSettings.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:35:59.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CourseSchedulesController.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\CourseSchedulesController.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Controllers\\CourseSchedulesController.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\CourseSchedulesController.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Controllers\\CourseSchedulesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:52:20.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\CourseDTO.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\DTOs\\CourseDTO.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\CourseDTO.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\DTOs\\CourseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:54:29.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Announcement.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\Announcement.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Models\\Announcement.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\Announcement.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Models\\Announcement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:30:35.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T18:18:47.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnnouncementService.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Services\\AnnouncementService.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Services\\AnnouncementService.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Services\\AnnouncementService.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Services\\AnnouncementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:06:19.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnnouncementSeedData.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\SeedData\\AnnouncementSeedData.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\SeedData\\AnnouncementSeedData.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\SeedData\\AnnouncementSeedData.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\SeedData\\AnnouncementSeedData.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:11:06.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Services\\StudentService.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Services\\StudentService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIBJwC0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T18:37:02.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Program.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Program.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:52:58.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:00:35.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnnouncementsController.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\AnnouncementsController.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Controllers\\AnnouncementsController.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\AnnouncementsController.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Controllers\\AnnouncementsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:06:39.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\Student.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:54:09.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\User.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:29:19.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Controllers\\EmailController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:36:15.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Services\\EmailService.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Services\\EmailService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAkwGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:35:22.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:35:09.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthDTO.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\AuthDTO.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\DTOs\\AuthDTO.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\AuthDTO.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\DTOs\\AuthDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:39:19.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\appsettings.json",
+              "RelativeToolTip": "EducationManagementSystem.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T11:29:38.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\Department.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:29:46.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:46:21.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NotificationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\NotificationDTO.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\DTOs\\NotificationDTO.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\NotificationDTO.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\DTOs\\NotificationDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:38:43.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\DTOs\\StudentDTO.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\StudentDTO.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\DTOs\\StudentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:55:10.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WelcomeEmailRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\WelcomeEmailRequestDTO.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\DTOs\\WelcomeEmailRequestDTO.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\WelcomeEmailRequestDTO.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\DTOs\\WelcomeEmailRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:47:00.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAqwMYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T18:18:03.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmailMessage.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\EmailMessage.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Models\\EmailMessage.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\EmailMessage.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Models\\EmailMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:32:12.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAvwDEAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:36:37.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:50:52.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\ICourseService.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Interfaces\\ICourseService.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\ICourseService.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Interfaces\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:36:08.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Interfaces\\ICourseRepository.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\ICourseRepository.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Interfaces\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:42:28.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IChatMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\IChatMessageService.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Interfaces\\IChatMessageService.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\IChatMessageService.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Interfaces\\IChatMessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:32:57.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IChatMessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\IChatMessageRepository.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Interfaces\\IChatMessageRepository.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\IChatMessageRepository.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Interfaces\\IChatMessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:32:30.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CourseMapper.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Mappers\\CourseMapper.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Mappers\\CourseMapper.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Mappers\\CourseMapper.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Mappers\\CourseMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:36:13.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CourseSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\CourseSchedule.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Models\\CourseSchedule.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\CourseSchedule.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Models\\CourseSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:46:38.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ModelsNamespace.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\ModelsNamespace.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Models\\ModelsNamespace.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\ModelsNamespace.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Models\\ModelsNamespace.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T17:46:25.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StudentCourse.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\StudentCourse.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Models\\StudentCourse.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\StudentCourse.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Models\\StudentCourse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:30:24.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\Course.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:03:03.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Models\\ChatMessage.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Models\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:31:28.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DataNamespace.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DataNamespace.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\DataNamespace.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DataNamespace.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\DataNamespace.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T17:46:48.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DepartmentSeedData.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\SeedData\\DepartmentSeedData.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\SeedData\\DepartmentSeedData.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\SeedData\\DepartmentSeedData.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\SeedData\\DepartmentSeedData.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T18:04:39.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CourseSeedData.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\SeedData\\CourseSeedData.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\SeedData\\CourseSeedData.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\SeedData\\CourseSeedData.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\SeedData\\CourseSeedData.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:30:47.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\Repositories\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAIBJwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:32:37.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StudentSeedData.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\SeedData\\StudentSeedData.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\SeedData\\StudentSeedData.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\SeedData\\StudentSeedData.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\SeedData\\StudentSeedData.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T18:02:16.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Services\\CourseService.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Services\\CourseService.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Services\\CourseService.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAvwKcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:36:20.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ChatMessageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\ChatMessageDTO.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\DTOs\\ChatMessageDTO.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\ChatMessageDTO.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\DTOs\\ChatMessageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:38:29.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:32:10.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AnnouncementDTO.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\AnnouncementDTO.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\DTOs\\AnnouncementDTO.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\AnnouncementDTO.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\DTOs\\AnnouncementDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:38:17.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ChatMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Services\\ChatMessageService.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Services\\ChatMessageService.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Services\\ChatMessageService.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Services\\ChatMessageService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:33:09.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ChatMessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\Repositories\\ChatMessageRepository.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\Repositories\\ChatMessageRepository.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\Repositories\\ChatMessageRepository.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\Repositories\\ChatMessageRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:32:42.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ChatMessageController.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\ChatMessageController.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Controllers\\ChatMessageController.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Controllers\\ChatMessageController.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Controllers\\ChatMessageController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:33:24.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DTOsNamespace.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\DTOsNamespace.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\DTOs\\DTOsNamespace.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\DTOs\\DTOsNamespace.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\DTOs\\DTOsNamespace.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T17:48:06.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "page.tsx",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\educationmanagementsystem.client\\src\\app\\courselist\\page.tsx",
+              "RelativeDocumentMoniker": "educationmanagementsystem.client\\src\\app\\courselist\\page.tsx",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\educationmanagementsystem.client\\src\\app\\courselist\\page.tsx",
+              "RelativeToolTip": "educationmanagementsystem.client\\src\\app\\courselist\\page.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-12-23T18:15:40.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "EducationManagementSystem.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj",
+              "RelativeToolTip": "EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T13:27:49.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-22T19:46:21.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "EducationManagementSystem.Server.http",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\EducationManagementSystem.Server.http",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\EducationManagementSystem.Server.http",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\EducationManagementSystem.Server.http",
+              "RelativeToolTip": "EducationManagementSystem.Server\\EducationManagementSystem.Server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-23T13:22:57.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\appsettings.Development.json",
+              "RelativeToolTip": "EducationManagementSystem.Server\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T21:50:33.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\educationmanagementsystem.client\\tsconfig.json",
+              "RelativeDocumentMoniker": "educationmanagementsystem.client\\tsconfig.json",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\educationmanagementsystem.client\\tsconfig.json",
+              "RelativeToolTip": "educationmanagementsystem.client\\tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-22T19:46:16.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "index.esm.js",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\educationmanagementsystem.client\\node_modules\\yup\\index.esm.js",
+              "RelativeDocumentMoniker": "educationmanagementsystem.client\\node_modules\\yup\\index.esm.js",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\educationmanagementsystem.client\\node_modules\\yup\\index.esm.js",
+              "RelativeToolTip": "educationmanagementsystem.client\\node_modules\\yup\\index.esm.js",
+              "ViewState": "AgIAAAcDAAAAAAAAAAArwCwDAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-23T12:41:43.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "react-dom.development.js",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\educationmanagementsystem.client\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+              "RelativeDocumentMoniker": "educationmanagementsystem.client\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\educationmanagementsystem.client\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+              "RelativeToolTip": "educationmanagementsystem.client\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+              "ViewState": "AgIAAKUBAAAAAAAAAIBJwKgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-23T12:41:38.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Interfaces\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Interfaces\\IStudentService.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Interfaces\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T18:36:49.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T11:43:41.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "RepositoriesNamespace.cs",
+              "DocumentMoniker": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\Repositories\\RepositoriesNamespace.cs",
+              "RelativeDocumentMoniker": "EducationManagementSystem.Server\\Data\\Repositories\\RepositoriesNamespace.cs",
+              "ToolTip": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\Data\\Repositories\\RepositoriesNamespace.cs",
+              "RelativeToolTip": "EducationManagementSystem.Server\\Data\\Repositories\\RepositoriesNamespace.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T17:47:29.568Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

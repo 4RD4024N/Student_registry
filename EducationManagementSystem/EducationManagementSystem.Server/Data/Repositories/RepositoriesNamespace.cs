@@ -1,0 +1,1 @@
+﻿namespace EducationManagementSystem.Data.Repositories;

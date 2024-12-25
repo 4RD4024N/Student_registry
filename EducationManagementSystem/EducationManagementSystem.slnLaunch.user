@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "educationmanagementsystem.client\\educationmanagementsystem.client.esproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

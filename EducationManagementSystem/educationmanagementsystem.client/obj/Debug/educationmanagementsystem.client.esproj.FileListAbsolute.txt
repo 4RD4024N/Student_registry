@@ -1,0 +1,1 @@
+C:\Users\arda0\source\repos\EducationManagementSystem\educationmanagementsystem.client\obj\Debug\educationmanagementsystem.client.esproj.CoreCompileInputs.cache
