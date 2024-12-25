@@ -12,6 +12,7 @@
     <PackageJsonDependenciesHookformResolvers Condition="$(PackageJsonDependenciesHookformResolvers) == ''">^3.9.1</PackageJsonDependenciesHookformResolvers>
     <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.7.9</PackageJsonDependenciesAxios>
     <PackageJsonDependenciesClassnames Condition="$(PackageJsonDependenciesClassnames) == ''">^2.5.1</PackageJsonDependenciesClassnames>
+    <PackageJsonDependenciesDotenv Condition="$(PackageJsonDependenciesDotenv) == ''">^16.4.7</PackageJsonDependenciesDotenv>
     <PackageJsonDependenciesFramerMotion Condition="$(PackageJsonDependenciesFramerMotion) == ''">^11.15.0</PackageJsonDependenciesFramerMotion>
     <PackageJsonDependenciesNext Condition="$(PackageJsonDependenciesNext) == ''">^15.1.2</PackageJsonDependenciesNext>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^19.0.0</PackageJsonDependenciesReact>

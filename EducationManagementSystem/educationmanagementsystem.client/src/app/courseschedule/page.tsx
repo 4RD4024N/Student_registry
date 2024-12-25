@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 interface CourseSchedule {
-  courseName: string;
+  courseId: number;
+  courseCode: string;
   dayOfWeek: string;
   startTime: string;
   endTime: string;
 }
 
 const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-const times = Array.from({ length: 10 }, (_, i) => `${8 + i}:00`);
+const times = Array.from({ length: 8 }, (_, i) => `${8 + i}:00`);
 
 export function CourseSchedulePage() {
   const [schedules, setSchedules] = useState<CourseSchedule[]>([]);
@@ -19,48 +21,41 @@ export function CourseSchedulePage() {
 
   const fetchSchedules = async () => {
     try {
-      const response = await fetch("/api/courses/schedule");
-      const data = await response.json();
-      setSchedules(data);
+      const response = await axios.get<CourseSchedule[]>('/api/courseschedules/schedule');
+      setSchedules(response.data);
     } catch (error) {
-      console.error("Error fetching course schedules:", error);
+      console.error('Error fetching course schedules:', error);
     }
   };
 
-  const getSchedule = (day: string, time: string) => {
-    const schedule = schedules.find(
-      (s) =>
-        s.dayOfWeek === day &&
-        s.startTime === time
+  const getCourseCode = (day: string, time: string) => {
+    const course = schedules.find(
+      (schedule) => schedule.dayOfWeek === day && schedule.startTime === time
     );
-    return schedule ? schedule.courseName : "";
+    return course ? course.courseCode : "";
   };
 
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>Course Schedule</h1>
-      <table style={styles.table}>
-        <thead>
-          <tr>
-            <th style={styles.headerCell}>Time/Day</th>
-            {days.map((day) => (
-              <th key={day} style={styles.headerCell}>{day}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
+      <div style={styles.gridContainer}>
+        <div style={styles.timeColumn}>
+          <div style={styles.emptyHeader}></div>
           {times.map((time) => (
-            <tr key={time}>
-              <td style={styles.timeCell}>{time}</td>
-              {days.map((day) => (
-                <td key={`${day}-${time}`} style={styles.cell}>
-                  {getSchedule(day, time)}
-                </td>
-              ))}
-            </tr>
+            <div key={time} style={styles.timeCell}>{time}</div>
           ))}
-        </tbody>
-      </table>
+        </div>
+        {days.map((day) => (
+          <div key={day} style={styles.dayColumn}>
+            <div style={styles.dayHeader}>{day}</div>
+            {times.map((time) => (
+              <div key={`${day}-${time}`} style={styles.cell}>
+                {getCourseCode(day, time)}
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -69,34 +64,61 @@ const styles: { [key: string]: React.CSSProperties } = {
   container: {
     padding: "2rem",
     textAlign: "center",
+    backgroundColor: "#f4f6f8",
+    minHeight: "100vh",
   },
   title: {
     fontSize: "2rem",
-    marginBottom: "1rem",
+    marginBottom: "1.5rem",
   },
-  table: {
-    width: "100%",
-    borderCollapse: "collapse",
-    textAlign: "center",
+  gridContainer: {
+    display: "grid",
+    gridTemplateColumns: `120px repeat(${days.length}, 1fr)`,
+    gap: "1px",
+    backgroundColor: "#ccc",
   },
-  headerCell: {
-    padding: "1rem",
-    fontWeight: "bold",
-    border: "1px solid #ccc",
-    backgroundColor: "#f4f4f4",
+  timeColumn: {
+    display: "flex",
+    flexDirection: "column",
+    backgroundColor: "#f9f9f9",
   },
   timeCell: {
-    padding: "0.5rem",
+    height: "50px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     border: "1px solid #ccc",
-    backgroundColor: "#fafafa",
+    backgroundColor: "#fff",
     fontWeight: "bold",
   },
-  cell: {
-    padding: "0.5rem",
+  dayColumn: {
+    display: "flex",
+    flexDirection: "column",
+    backgroundColor: "#f9f9f9",
+  },
+  dayHeader: {
+    height: "50px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    fontWeight: "bold",
+    backgroundColor: "#4b4bf5",
+    color: "#fff",
     border: "1px solid #ccc",
-    minWidth: "100px",
+  },
+  cell: {
+    height: "50px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    border: "1px solid #ccc",
+    backgroundColor: "#fff",
+    fontSize: "0.9rem",
+  },
+  emptyHeader: {
+    height: "50px",
+    backgroundColor: "#f9f9f9",
   },
 };
 
-export default CourseSchedule;
-
+export default CourseSchedulePage;

@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:51691",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\..\\educationmanagementsystem.client",
+"WorkingDirectory": "C:\\Users\\arda0\\source\\repos\\student-registry\\EducationManagementSystem\\EducationManagementSystem.Server\\..\\educationmanagementsystem.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

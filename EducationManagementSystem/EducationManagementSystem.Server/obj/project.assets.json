@@ -3650,11 +3650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj",
+      "projectUniqueName": "C:\\Users\\arda0\\source\\repos\\student-registry\\EducationManagementSystem\\EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj",
       "projectName": "EducationManagementSystem.Server",
-      "projectPath": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj",
+      "projectPath": "C:\\Users\\arda0\\source\\repos\\student-registry\\EducationManagementSystem\\EducationManagementSystem.Server\\EducationManagementSystem.Server.csproj",
       "packagesPath": "C:\\Users\\arda0\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\EducationManagementSystem.Server\\obj\\",
+      "outputPath": "C:\\Users\\arda0\\source\\repos\\student-registry\\EducationManagementSystem\\EducationManagementSystem.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

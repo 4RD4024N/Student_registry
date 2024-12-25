@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "tdwgTC2wtynkpe0bDu/ZkJS490FKDM2DVm8AOLpeA3s=",
+  "Hash": "Vck09rCYd5jael4wNsXfWPJSlNMPKErC+na989tagMY=",
   "Source": "EducationManagementSystem.Server",
   "BasePath": "_content/EducationManagementSystem.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\arda0\\source\\repos\\EducationManagementSystem\\educationmanagementsystem.client\\educationmanagementsystem.client.esproj",
+      "Identity": "C:\\Users\\arda0\\source\\repos\\student-registry\\EducationManagementSystem\\educationmanagementsystem.client\\educationmanagementsystem.client.esproj",
       "Version": 2,
       "Source": "educationmanagementsystem.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
